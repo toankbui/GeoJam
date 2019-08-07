@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E37E87322FA46C600D36CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37E87222FA46C600D36CAA /* AppDelegate.swift */; };
+		6E37E87722FA46C600D36CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37E87622FA46C600D36CAA /* ViewController.swift */; };
+		6E37E87A22FA46C600D36CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E37E87822FA46C600D36CAA /* Main.storyboard */; };
+		6E37E87D22FA46C600D36CAA /* GeoJam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E37E87B22FA46C600D36CAA /* GeoJam.xcdatamodeld */; };
+		6E37E87F22FA46C700D36CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E37E87E22FA46C700D36CAA /* Assets.xcassets */; };
+		6E37E88222FA46C700D36CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E37E88022FA46C700D36CAA /* LaunchScreen.storyboard */; };
+		6E37E88D22FA46C800D36CAA /* GeoJamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37E88C22FA46C800D36CAA /* GeoJamTests.swift */; };
+		6E37E89822FA46C800D36CAA /* GeoJamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37E89722FA46C800D36CAA /* GeoJamUITests.swift */; };
+		6E37E8A722FA4AF700D36CAA /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E37E8A622FA4AF700D36CAA /* SpotifyiOS.framework */; };
+		6E37E8AB22FA6EDF00D36CAA /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37E8AA22FA6EDF00D36CAA /* ConnectButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E37E88922FA46C800D36CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E37E86722FA46C600D36CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E37E86E22FA46C600D36CAA;
+			remoteInfo = GeoJam;
+		};
+		6E37E89422FA46C800D36CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E37E86722FA46C600D36CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E37E86E22FA46C600D36CAA;
+			remoteInfo = GeoJam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E37E86F22FA46C600D36CAA /* GeoJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E37E87222FA46C600D36CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E37E87622FA46C600D36CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E37E87922FA46C600D36CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E37E87C22FA46C600D36CAA /* GeoJam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeoJam.xcdatamodel; sourceTree = "<group>"; };
+		6E37E87E22FA46C700D36CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E37E88122FA46C700D36CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E37E88322FA46C700D36CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E37E88822FA46C800D36CAA /* GeoJamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoJamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E37E88C22FA46C800D36CAA /* GeoJamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJamTests.swift; sourceTree = "<group>"; };
+		6E37E88E22FA46C800D36CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E37E89322FA46C800D36CAA /* GeoJamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoJamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E37E89722FA46C800D36CAA /* GeoJamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJamUITests.swift; sourceTree = "<group>"; };
+		6E37E89922FA46C800D36CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E37E8A622FA4AF700D36CAA /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "../../ios-sdk-1.0.2/SpotifyiOS.framework"; sourceTree = "<group>"; };
+		6E37E8A822FA4CA100D36CAA /* GeoJams-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoJams-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E37E8AA22FA6EDF00D36CAA /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E37E86C22FA46C600D36CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37E8A722FA4AF700D36CAA /* SpotifyiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37E88522FA46C800D36CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37E89022FA46C800D36CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E37E86622FA46C600D36CAA = {
+			isa = PBXGroup;
+			children = (
+				6E37E8A822FA4CA100D36CAA /* GeoJams-Bridging-Header.h */,
+				6E37E8A522FA4AE300D36CAA /* Frameworks */,
+				6E37E87122FA46C600D36CAA /* GeoJam */,
+				6E37E88B22FA46C800D36CAA /* GeoJamTests */,
+				6E37E89622FA46C800D36CAA /* GeoJamUITests */,
+				6E37E87022FA46C600D36CAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E37E87022FA46C600D36CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E37E86F22FA46C600D36CAA /* GeoJam.app */,
+				6E37E88822FA46C800D36CAA /* GeoJamTests.xctest */,
+				6E37E89322FA46C800D36CAA /* GeoJamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E37E87122FA46C600D36CAA /* GeoJam */ = {
+			isa = PBXGroup;
+			children = (
+				6E37E8A922FA6EA800D36CAA /* Components */,
+				6E37E87222FA46C600D36CAA /* AppDelegate.swift */,
+				6E37E87622FA46C600D36CAA /* ViewController.swift */,
+				6E37E87822FA46C600D36CAA /* Main.storyboard */,
+				6E37E87E22FA46C700D36CAA /* Assets.xcassets */,
+				6E37E88022FA46C700D36CAA /* LaunchScreen.storyboard */,
+				6E37E88322FA46C700D36CAA /* Info.plist */,
+				6E37E87B22FA46C600D36CAA /* GeoJam.xcdatamodeld */,
+			);
+			path = GeoJam;
+			sourceTree = "<group>";
+		};
+		6E37E88B22FA46C800D36CAA /* GeoJamTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E37E88C22FA46C800D36CAA /* GeoJamTests.swift */,
+				6E37E88E22FA46C800D36CAA /* Info.plist */,
+			);
+			path = GeoJamTests;
+			sourceTree = "<group>";
+		};
+		6E37E89622FA46C800D36CAA /* GeoJamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E37E89722FA46C800D36CAA /* GeoJamUITests.swift */,
+				6E37E89922FA46C800D36CAA /* Info.plist */,
+			);
+			path = GeoJamUITests;
+			sourceTree = "<group>";
+		};
+		6E37E8A522FA4AE300D36CAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E37E8A622FA4AF700D36CAA /* SpotifyiOS.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E37E8A922FA6EA800D36CAA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6E37E8AA22FA6EDF00D36CAA /* ConnectButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E37E86E22FA46C600D36CAA /* GeoJam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E37E89C22FA46C800D36CAA /* Build configuration list for PBXNativeTarget "GeoJam" */;
+			buildPhases = (
+				6E37E86B22FA46C600D36CAA /* Sources */,
+				6E37E86C22FA46C600D36CAA /* Frameworks */,
+				6E37E86D22FA46C600D36CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoJam;
+			productName = GeoJam;
+			productReference = 6E37E86F22FA46C600D36CAA /* GeoJam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E37E88722FA46C800D36CAA /* GeoJamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E37E89F22FA46C800D36CAA /* Build configuration list for PBXNativeTarget "GeoJamTests" */;
+			buildPhases = (
+				6E37E88422FA46C800D36CAA /* Sources */,
+				6E37E88522FA46C800D36CAA /* Frameworks */,
+				6E37E88622FA46C800D36CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E37E88A22FA46C800D36CAA /* PBXTargetDependency */,
+			);
+			name = GeoJamTests;
+			productName = GeoJamTests;
+			productReference = 6E37E88822FA46C800D36CAA /* GeoJamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E37E89222FA46C800D36CAA /* GeoJamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E37E8A222FA46C800D36CAA /* Build configuration list for PBXNativeTarget "GeoJamUITests" */;
+			buildPhases = (
+				6E37E88F22FA46C800D36CAA /* Sources */,
+				6E37E89022FA46C800D36CAA /* Frameworks */,
+				6E37E89122FA46C800D36CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E37E89522FA46C800D36CAA /* PBXTargetDependency */,
+			);
+			name = GeoJamUITests;
+			productName = GeoJamUITests;
+			productReference = 6E37E89322FA46C800D36CAA /* GeoJamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E37E86722FA46C600D36CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Toan Bui and Scott Beinlich";
+				TargetAttributes = {
+					6E37E86E22FA46C600D36CAA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					6E37E88722FA46C800D36CAA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 6E37E86E22FA46C600D36CAA;
+					};
+					6E37E89222FA46C800D36CAA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 6E37E86E22FA46C600D36CAA;
+					};
+				};
+			};
+			buildConfigurationList = 6E37E86A22FA46C600D36CAA /* Build configuration list for PBXProject "GeoJam" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E37E86622FA46C600D36CAA;
+			productRefGroup = 6E37E87022FA46C600D36CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E37E86E22FA46C600D36CAA /* GeoJam */,
+				6E37E88722FA46C800D36CAA /* GeoJamTests */,
+				6E37E89222FA46C800D36CAA /* GeoJamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E37E86D22FA46C600D36CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37E88222FA46C700D36CAA /* LaunchScreen.storyboard in Resources */,
+				6E37E87F22FA46C700D36CAA /* Assets.xcassets in Resources */,
+				6E37E87A22FA46C600D36CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37E88622FA46C800D36CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37E89122FA46C800D36CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E37E86B22FA46C600D36CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37E8AB22FA6EDF00D36CAA /* ConnectButton.swift in Sources */,
+				6E37E87722FA46C600D36CAA /* ViewController.swift in Sources */,
+				6E37E87322FA46C600D36CAA /* AppDelegate.swift in Sources */,
+				6E37E87D22FA46C600D36CAA /* GeoJam.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37E88422FA46C800D36CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37E88D22FA46C800D36CAA /* GeoJamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37E88F22FA46C800D36CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37E89822FA46C800D36CAA /* GeoJamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E37E88A22FA46C800D36CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E37E86E22FA46C600D36CAA /* GeoJam */;
+			targetProxy = 6E37E88922FA46C800D36CAA /* PBXContainerItemProxy */;
+		};
+		6E37E89522FA46C800D36CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E37E86E22FA46C600D36CAA /* GeoJam */;
+			targetProxy = 6E37E89422FA46C800D36CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E37E87822FA46C600D36CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E37E87922FA46C600D36CAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E37E88022FA46C700D36CAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E37E88122FA46C700D36CAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E37E89A22FA46C800D36CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E37E89B22FA46C800D36CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E37E89D22FA46C800D36CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REQXK25UC2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/CloudStorage/iCloud\\ Drive/Desktop/ios-sdk-1.0.2",
+				);
+				INFOPLIST_FILE = GeoJam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottbeinlich.GeoJams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoJams-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E37E89E22FA46C800D36CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REQXK25UC2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/CloudStorage/iCloud\\ Drive/Desktop/ios-sdk-1.0.2",
+				);
+				INFOPLIST_FILE = GeoJam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottbeinlich.GeoJams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoJams-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E37E8A022FA46C800D36CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REQXK25UC2;
+				INFOPLIST_FILE = GeoJamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottbeinlich.GeoJamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoJam.app/GeoJam";
+			};
+			name = Debug;
+		};
+		6E37E8A122FA46C800D36CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REQXK25UC2;
+				INFOPLIST_FILE = GeoJamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottbeinlich.GeoJamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoJam.app/GeoJam";
+			};
+			name = Release;
+		};
+		6E37E8A322FA46C800D36CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REQXK25UC2;
+				INFOPLIST_FILE = GeoJamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottbeinlich.GeoJamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoJam;
+			};
+			name = Debug;
+		};
+		6E37E8A422FA46C800D36CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REQXK25UC2;
+				INFOPLIST_FILE = GeoJamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottbeinlich.GeoJamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoJam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E37E86A22FA46C600D36CAA /* Build configuration list for PBXProject "GeoJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E37E89A22FA46C800D36CAA /* Debug */,
+				6E37E89B22FA46C800D36CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E37E89C22FA46C800D36CAA /* Build configuration list for PBXNativeTarget "GeoJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E37E89D22FA46C800D36CAA /* Debug */,
+				6E37E89E22FA46C800D36CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E37E89F22FA46C800D36CAA /* Build configuration list for PBXNativeTarget "GeoJamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E37E8A022FA46C800D36CAA /* Debug */,
+				6E37E8A122FA46C800D36CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E37E8A222FA46C800D36CAA /* Build configuration list for PBXNativeTarget "GeoJamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E37E8A322FA46C800D36CAA /* Debug */,
+				6E37E8A422FA46C800D36CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E37E87B22FA46C600D36CAA /* GeoJam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E37E87C22FA46C600D36CAA /* GeoJam.xcdatamodel */,
+			);
+			currentVersion = 6E37E87C22FA46C600D36CAA /* GeoJam.xcdatamodel */;
+			path = GeoJam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E37E86722FA46C600D36CAA /* Project object */;
+}
